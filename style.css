@@ -20,7 +20,7 @@
 h1 {
   color: #fff;
   font-family: "Raleway", sans-serif;
-  font-size: 2.5em;
+  font-size: 2.4em;
 }
 
 h2 {
@@ -73,7 +73,9 @@ h2 {
 
 .header-subtitle {
   color: #fff;
-  font-size: 1.2em;
+  font-family: "Raleway", sans-serif;
+  font-size: 1em;
+  font-weight: 400;
 }
 
 /* navbar */
@@ -95,7 +97,7 @@ h2 {
 }
 
 .button-red {
-  margin: 0 25px;
+  margin-left: 25px;
   padding: 10px 20px;
 
   border: 2px solid #fff;
@@ -134,24 +136,29 @@ h2 {
 
 /* how to order */
 
-.order-icons {
+.order-items {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
-.order-icons img {
+.order-items img {
   width: 100px;
   height: 100px;
 
   margin: 0 auto;
 }
 
-.order-icon {
+.order-item {
   display: flex;
   flex-direction: column;
 
   padding: 25px 20px;
+}
+
+.order-item span {
+  padding-top: 20px;
+  font-size: 32px;
 }
 
 /* menu list */
@@ -196,6 +203,8 @@ h2 {
 }
 
 .menu-price {
+  min-width: 100px;
+
   text-align: right;
 }
 
