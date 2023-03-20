@@ -22,13 +22,13 @@
     <div class="header-top">
       <img class="header-logo" src="./img/saku.png" alt="">
       <div class="navbar">
-        <a href="#">MENU</a>
-        <a href="#">LOCATIONS</a>
-        <a href="#">ABOUT</a>
-        <button class="button-red">
+        <a class="navbar-item mobile-hide" href="#menu">MENU</a>
+        <a class="navbar-item mobile-hide" href="#location">LOCATIONS</a>
+        <a class="navbar-item mobile-hide" href="#location">ABOUT</a>
+        <a class="button-red" href="tel:123456789">
           <img class="button-icon" src="./img/phone.png">
-          1234 / 456789
-        </button>
+          1234/456789
+        </a>
       </div>
     </div>
 
@@ -39,9 +39,9 @@
 
   </header>
 
-  <div class="main-container">
+  <div>
 
-    <div class="container01 main-order">
+    <div class="container01">
       <h2 class="text-title01">HOW TO ORDER</h2>
 
       <div class="order-items">
@@ -61,78 +61,78 @@
 
     </div>
 
-    <div class="container01 main-menu">
+    <div id="menu" class="container01 menu-main">
       <h2 class="text-title01">OUR MENU</h2>
-      <div class="menu-item">
-        <img class="menu-img" src="img/r1.png" alt="">
-        <table>
-          <tr>
-            <td class="table-header">Tonkasu Ramen</td>
-          </tr>
-          <tr>
-            <td>CHICKEN</td>
-            <td class="menu-price">11,95 €</td>
-          </tr>
-          <tr>
-            <td>BEEF</td>
-            <td class="menu-price">12,95 €</td>
-          </tr>
-          <tr>
-            <td>SHRIMP</td>
-            <td class="menu-price">13,95 €</td>
-          </tr>
-        </table>
-      </div>
-
-      <div class="menu-item menu-item-reverse">
-        <table>
-          <tr>
-            <td class="table-header">Spicy Miso Ramen</td>
-          </tr>
-          <tr>
-            <td>CHICKEN</td>
-            <td class="menu-price">11,95 €</td>
-          </tr>
-          <tr>
-            <td>BEEF</td>
-            <td class="menu-price">12,95 €</td>
-          </tr>
-          <tr>
-            <td>SHRIMP</td>
-            <td class="menu-price">13,95 €</td>
-          </tr>
-        </table>
-        <img class="menu-img" src="img/r2.png" alt="">
-      </div>
-
-      <div class="menu-item">
-        <img class="menu-img" src="img/r3.png" alt="">
-        <table>
-          <tr>
-            <td class="table-header">Shio Ramen</td>
-          </tr>
-          <tr>
-            <td>CHICKEN</td>
-            <td class="menu-price">11,95 €</td>
-          </tr>
-          <tr>
-            <td>BEEF</td>
-            <td class="menu-price">12,95 €</td>
-          </tr>
-          <tr>
-            <td>SHRIMP</td>
-            <td class="menu-price">13,95 €</td>
-          </tr>
-        </table>
+      <div class="menu-items">
+        <div class="menu-item">
+          <img class="menu-img" src="img/r1.png" alt="">
+          <table>
+            <tr>
+              <td class="table-header" colspan="2">Tonkasu Ramen</td>
+            </tr>
+            <tr>
+              <td>CHICKEN</td>
+              <td class="menu-price">11,95 €</td>
+            </tr>
+            <tr>
+              <td>BEEF</td>
+              <td class="menu-price">12,95 €</td>
+            </tr>
+            <tr>
+              <td>SHRIMP</td>
+              <td class="menu-price">13,95 €</td>
+            </tr>
+          </table>
+        </div>
+        <div class="menu-item menu-item-reverse">
+          <table>
+            <tr>
+              <td class="table-header" colspan="2">Spicy Miso Ramen</td>
+            </tr>
+            <tr>
+              <td>CHICKEN</td>
+              <td class="menu-price">11,95 €</td>
+            </tr>
+            <tr>
+              <td>BEEF</td>
+              <td class="menu-price">12,95 €</td>
+            </tr>
+            <tr>
+              <td>SHRIMP</td>
+              <td class="menu-price">13,95 €</td>
+            </tr>
+          </table>
+          <img class="menu-img" src="img/r2.png" alt="">
+        </div>
+        <div class="menu-item">
+          <img class="menu-img" src="img/r3.png" alt="">
+          <table>
+            <tr>
+              <td class="table-header" colspan="2">Shio Ramen</td>
+            </tr>
+            <tr>
+              <td>CHICKEN</td>
+              <td class="menu-price">11,95 €</td>
+            </tr>
+            <tr>
+              <td>BEEF</td>
+              <td class="menu-price">12,95 €</td>
+            </tr>
+            <tr>
+              <td>SHRIMP</td>
+              <td class="menu-price">13,95 €</td>
+            </tr>
+          </table>
+        </div>
       </div>
 
     </div>
 
-    <div class="container01 main-address">
+    <div id="location" class="container01 main-address">
       <h2 class="text-title01">FIND US AT</h2>
       <div class="c-center">
         <img class="address-icon" src="img/LO.png" alt="">
-        <span class="font02">Kapuzinerstraße 31, München, BY 80337</span>
+        <span class="font02 font-center">Kapuzinerstraße 31, München, BY 80337</span>
       </div>
     </div>
     <iframe
